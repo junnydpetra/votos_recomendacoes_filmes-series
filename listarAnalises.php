@@ -15,7 +15,6 @@
             <thead>
                 <tr>
                     <th>Título </th>
-                    <th>Usuário</th>
                     <th>Recomendam</th>
                     <th>Não Recomendam</th>
                 </tr>
@@ -31,7 +30,6 @@
                         ?>
                             <tr>
                                 <td><?= $dados[1] ?></td>
-                                <td><?= $dados[2] ?></td>
                                 <td><?= $dados[3] ?></td>
                                 <td><?= $dados[4] ?></td>
                             </tr>
