@@ -21,6 +21,7 @@
                 echo "<a href='nao-recomenda.php?id=".$row_titulo['id']."'>Não Recomenda</a> | ";
                 echo "<a href='listarAnalises.php?'>Acompanhar Resultados</a><br><hr>";
             }
+                
         ?>
 
     </body>

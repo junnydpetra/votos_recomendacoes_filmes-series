@@ -15,7 +15,7 @@
             <thead>
                 <tr>
                     <th>Título </th>
-                    <th>Usuário</th>
+                    <th colspan="2">Opções</th>
                 </tr>
             </thead>
 
@@ -29,7 +29,8 @@
                         ?>
                             <tr>
                                 <td><?= $dados[1] ?></td>
-                                <td><?= $dados[2] ?></td>
+                                <td><a href="excluir.php?id=<?= $dados[0] ?>">Excluir</a></td>
+                                <td><a href="editar.php?id=<?= $dados[0] ?>">Editar</a></td>
                             </tr>
                         <?php
                      }

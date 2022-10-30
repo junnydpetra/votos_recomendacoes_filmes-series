@@ -2,16 +2,9 @@
 
 include_once('conexao.php');
 
-class usuario
-{
+    $usuario = mysqli_real_escape_string($conector, $_POST['usuario']);
+    $senha = mysqli_real_escape_string($conector, $_POST['senha']);
 
-    public function idUsuario ($id)
-    {
-        $array = array();
-
-        $sql - 
-    }
-
-}
+    
 
 ?>
